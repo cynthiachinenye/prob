@@ -1,4 +1,5 @@
 import './App.css';
+import {BroswerRouter as Router, Routes, Route} from '/react-router-dom'
 
 function App() {
   return (
