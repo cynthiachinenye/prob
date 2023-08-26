@@ -1,4 +1,15 @@
 .menu{
     width:100%;
     height:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menuItems{
+    width:100%;
+    height:auto;
+    flex:50%;
+}
+.menu-title{
+    
 }

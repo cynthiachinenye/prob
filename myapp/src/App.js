@@ -12,7 +12,7 @@ function App() {
       <NavBar/>
         <Routes>
          <Route path='/' element={<Home/>}/>
-         <Route path='menu' exact ={<Menu/>}/>
+         <Route path='menu' component={Menu}/>
         </Routes>
         <Footer/>
       </Router>
