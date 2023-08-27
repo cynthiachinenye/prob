@@ -1,9 +1,11 @@
 .menu{
     width:100%;
     height:auto;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+}
+.menu-title{
+    font-size:40px;
+    font-family:cursive;
+    padding-top:50px;
 }
 .menuItems{
     border-radius:15px;
@@ -28,20 +30,18 @@
     background-size:cover;
 } 
 
-.menuItems h1, .menuItems p{
-    margin-left:20px;
-}
-
-.menu .menu-title{
-    font-family:cursive;
-    text-align:center;
-    font-size:30px;
-    
-}
 .menu .container{
     width:50px;
     height:auto;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+}
+.menuItems h1, p{
+    padding-top:20px;
+    text-align:left;
+    padding-left:20px;
+} 
+.menuItems p{
+    font-size:20px;
 }
