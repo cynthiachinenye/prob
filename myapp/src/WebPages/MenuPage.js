@@ -1,6 +1,7 @@
 import React from 'react'
-import {MenuList} from '../Helper/MenuPageList'
+import {Menu} from '../Helper/MenuPageList'
 import MenuItem from '../Components/MenuItem'
+import '../ForStyles/Menu.css'
 
 function MenuPage() {
   return (
@@ -8,7 +9,7 @@ function MenuPage() {
     <h1 className='menu-title'>Our Menu</h1>
     <div className="container">
      {
-        MenuList.map((menu,key) => {
+        Menu.map((menu,key) => {
             
             return (
                 <MenuItem

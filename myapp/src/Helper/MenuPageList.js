@@ -17,7 +17,6 @@
    import naming from '../Assets/pizza1.jpeg'
 
   export const Menu = [
-
     {
         name:'Dice Egg pizza',
         image: Eggoh,
